@@ -203,7 +203,7 @@ local isWhitelisted = false
 -- Белый список (ЗАМЕНИ НА СВОИ HWID)
 local whitelist = {
     ["TEST123"] = true,
-	["TEST123"] = true,
+	["19FD2260D4CF48D98CCD12C901209862"] = true,
 	["AA27CF59068D474EBE6605F3E44CA236"] = true,
     ["DEMO456"] = true
 }

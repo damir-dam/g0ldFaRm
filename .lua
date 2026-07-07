@@ -224,7 +224,7 @@ RunService.RenderStepped:Connect(function()
                         local hrp = char:FindFirstChild("HumanoidRootPart")
                         if hrp then
                             hrp.Size = Vector3.new(_G.HeadSize, _G.HeadSize, _G.HeadSize)
-                            hrp.Transparency = 0.7
+                            hrp.Transparency = 1
                             hrp.BrickColor = BrickColor.new("Really blue")
                             hrp.Material = Enum.Material.Glass
                             hrp.CanCollide = false
